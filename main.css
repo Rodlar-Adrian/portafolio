@@ -1,0 +1,487 @@
+body{
+align-items: center;
+text-align: center;
+background-color: rgb(243, 225, 202);
+
+
+}
+
+header{
+padding: 20px;
+margin-top: -5px;
+border-width: thin;
+border-style: groove;
+background-color:rgb(250, 245, 245);
+border-radius: 10px;
+display: flex;
+flex-wrap: wrap;
+align-content: center;
+align-items: center;
+}
+
+
+header a{
+align-items: center;
+align-content: center;
+font-size: 18px;
+font-weight: 100;
+color: rgb(179, 169, 166);
+margin-right: auto;
+margin-left: auto;
+text-decoration: none;
+}
+
+header a.activo{
+  color:#000;
+
+
+}
+
+
+
+
+
+ 
+
+ #contenedor{
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+ object-position: center;
+ margin-top: -55px;
+ }
+
+
+
+img{
+border-radius: 70px;
+border-width: 5px;
+border-style: none;
+margin-top: 50px;
+margin-right: 50px;
+margin-bottom: 20px;
+margin-left:50px ;
+width: 250px;
+
+
+}
+
+.imgagen-de-pokemon{
+
+width: 85px;
+margin-right: center;
+animation-name:girando;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+animation-timing-function: cubic-bezier(0.311, 0.441, 0.444, 0.1.649);
+margin-bottom: auto;
+}
+
+@keyframes girando{
+
+
+    85% {
+        transform: rotate(45deg);
+        top: 50px;
+
+      }
+
+      50% {
+        transform: rotate(65deg);
+        top: 50px;
+
+      }
+
+      100% {
+        transform: rotate(75deg);
+        top: 100px;
+
+      }
+
+    
+
+}
+
+
+input{
+  align-items: center;
+text-align: center;
+color: negro;
+width: 25%;
+border-radius: 10px;
+border-style: none;
+
+}
+
+
+button{
+  margin-left: 5px;
+}
+
+
+
+
+
+ ul{
+   align-items: center;
+   align-content: center;
+     margin-bottom: 0px;
+     list-style: none;
+     margin-bottom: auto;
+
+ }
+
+ ul p{
+  align-items: center;
+  align-content: center;
+  margin-top:  auto;
+  margin-right: 100px;
+  margin-bottom: auto;
+  margin-left: 50px;
+  
+ }
+
+ li{
+     align-items: center;
+     align-content: center;
+     margin-top:  auto;
+     margin-right: 100px;
+     margin-bottom: auto;
+     margin-left: 50px;
+
+ }
+  
+ .div-nombre p{
+align-items: center;
+align-content: center;
+margin-right: 60px;
+margin-left: 50px;
+margin-top: -10px;
+font-size:15px ;
+font-style: normal;
+ }
+
+ .div-nombre{
+align-items: center;
+align-content: center;
+margin-bottom: auto;
+background-color: transparent;
+border: transparent;
+border-width: 0ch;
+border-radius: 0%;
+box-shadow: none;
+text-decoration-color: rgba(7, 6, 6, 0.876);
+font-size: 25px;
+font-weight: 200px;
+font-family: 'Times New Roman', Times, serif;
+
+ }
+
+ 
+
+
+footer{
+justify-content: center;
+align-items: center;
+margin-top: 50px;
+
+}
+
+
+footer .redes-sociales{
+display: flex;
+align-content: center;
+justify-content: center;
+flex-wrap: wrap;
+padding: 20px;
+border-style: none;
+background-color: transparent;
+box-shadow: none;
+
+}
+
+
+
+footer .redes-sociales a {
+display: block;
+width: 60px;
+height: 60px;
+margin: 20px;
+text-align: center;
+color: white;
+background:  #000;
+border-radius: 100px;
+transition: 5s ease all;
+
+}
+footer .redes-sociales .div-uno a {background-color:#1da1f2;}
+  footer .redes-sociales .div-dos a {background-color: #3b5998;}
+    footer .redes-sociales .div-tres a {background-color:#c13584;}
+
+
+footer .redes-sociales a i {
+  font-size: 20px;
+ line-height: 60px;
+ 
+}
+
+
+   footer .div-uno:hover a {
+
+animation: icono .5s ease;
+
+   }
+
+   footer .div-dos:hover a {
+
+    animation: icono .5s ease;
+    
+       }
+
+
+
+       footer .div-tres:hover a {
+
+        animation: icono .5s ease;
+        
+           }
+
+
+
+
+@keyframes icono{
+  from {
+    transform: rotate3d(0,0,0,0);
+  }
+
+to {
+  transform: rotate3d(0,1,0, 360deg);
+
+}
+
+}
+
+
+ .yo-soy{
+align-items: center;
+text-align: center;
+align-content: center;
+margin-top: 250px;
+
+}
+.yo-soy img{
+margin-top: 250px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.yo-soy p{
+text-align: center;
+justify-content: center;
+justify-items: center;
+display: inline-block;
+margin-left: 100px;
+margin-right: 100px;
+font-size: 20px;
+
+}
+
+
+.yo-soy p::first-letter{
+font-size: 30px;
+
+}
+
+
+
+
+
+
+
+
+.proyectos .iconos{
+  padding: 20px;
+
+}
+
+.proyectos{
+
+  margin-top: 300px;
+}
+
+
+
+
+
+.proyectos .iconos i{
+font-size: 20px;
+align-items: center;
+margin-right: 5px;
+
+}
+.proyectos ul li {
+font-size: 20px;
+
+}
+
+
+
+
+
+
+
+.proyectos p{
+  margin-top: -15px;
+font-size: 25px;
+font-weight: 100;
+color: black;
+
+}
+
+.proyectos p::first-letter{
+
+  font-size: 30px;
+}
+
+.contacto-yo{
+  margin-top: 300px;
+align-items: center;
+align-items: center;
+justify-content: center;
+justify-items: center;
+text-align: center;
+
+}
+
+.contacto-yo div{
+  align-items: center;
+align-items: center;
+justify-content: center;
+justify-items: center;
+  }
+
+  .contacto-yo div form{
+    align-items: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+        
+  }
+
+  .contacto-yo div form label{
+
+    display:block;
+    margin-top:20px;
+    letter-spacing:1px;
+  }
+
+  .contacto-yo div form textarea{
+
+    height:150px;
+    align-items: center;
+    padding-right: 150px;
+    margin-inline: auto;
+    display: flex;
+  flex-direction: column;
+
+  }
+ 
+  .contacto-yo div form textarea #Enviar {
+
+    width:85px;
+    height:35px;
+    border:none;
+    margin-top:20px;
+    cursor:pointer
+  }
+  .contacto-yo div form #Enviar{
+margin-top: 20px;
+
+
+  }
+  
+  .contacto-yo div form p i{
+height: 20px;
+width: 50px;
+
+  }
+
+
+
+
+  .habilidades{
+    margin-top: 400px;
+
+}
+
+
+
+
+
+
+.habilidades .habilidad{
+font-size: 20px;
+color: #000;
+
+}
+
+
+
+
+
+.habilidades .primerul{
+margin-top: 50px;
+}
+
+.habilidades .segundoul li{
+margin-top: -10;
+font-family: Arial, Helvetica, sans-serif;
+color: #000;
+}
+
+.habilidades p{ 
+margin-top: 20px;
+font-size: 20px;
+
+}
+
+
+.pie-pagina{
+
+  margin-top: 50px;
+  text-align: center;
+  font-size: 15px;
+  color: #c13584;
+
+}
+
+
+.desarrollado-por-adrian-rodriguez-aguilar .desarrollado-por{
+color: #000;
+text-decoration: none;
+
+
+}
+
+
+.desarrollado-por-adrian-rodriguez-aguilar{
+text-align: center;
+
+
+}
+
+.desarrollado-por-adrian-rodriguez-aguilar p a:hover{
+text-decoration: underline;
+
+}
